@@ -21,6 +21,20 @@ public class Input {
         }
     }
 
+    public static int getInt(int min, int max) {
+        System.out.println("Enter an integer between " + min + " and " + max + ":");
+        int userInput = scanner.nextInt();
+        if (userInput < min || userInput > max) {
+            return getInt(min, max);
+        } else {
+            return userInput;
+        }
+    }
+
+    public static int getInt() {
+        return scanner.nextInt();
+    }
+
 
 
 }
