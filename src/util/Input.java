@@ -10,6 +10,17 @@ public class Input {
         return scanner.nextLine();
     }
 
+    public static boolean yesNo(String prompt) {
+        System.out.println(prompt);
+        String userInput = scanner.next();
+        if (userInput.equalsIgnoreCase("y") ||
+            userInput.equalsIgnoreCase("yes")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 
 
 }
