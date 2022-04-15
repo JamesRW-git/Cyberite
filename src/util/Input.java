@@ -31,10 +31,24 @@ public class Input {
         }
     }
 
-    public static int getInt() {
+    public static int getInt(String prompt) {
+        System.out.println(prompt);
         return scanner.nextInt();
     }
 
+    public static double getDouble(double min, double max) {
+        System.out.println("Enter a decimal number between " + min + " and " + max + ":");
+        double userInput = scanner.nextDouble();
+        if (userInput < min || userInput > max) {
+            return getDouble(min, max);
+        } else {
+            return userInput;
+        }
+    }
 
+    public static double getDouble(String prompt){
+        System.out.println(prompt);
+        return scanner.nextDouble();
+    }
 
 }
