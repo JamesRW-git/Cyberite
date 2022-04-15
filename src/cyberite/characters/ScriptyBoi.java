@@ -1,7 +1,7 @@
 package cyberite.characters;
 
 
-import static util.Combat.getRandNum;
+import static util.Tools.getRandNum;
 
 public class ScriptyBoi extends Cyberite{
 

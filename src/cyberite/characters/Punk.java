@@ -1,8 +1,6 @@
 package cyberite.characters;
 
-import cyberite.characters.Character;
-
-import static util.Combat.getRandNum;
+import static util.Tools.getRandNum;
 
 public class Punk extends Cyberite{
 
