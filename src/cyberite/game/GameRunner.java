@@ -42,9 +42,9 @@ public class GameRunner {
                 break;
             default:
                 System.out.println("You awaken from your post caffeine-psychosis slumber in a room you don't recognize.\n" +
-                        "Worse, your Apple iMplant 16XS seems to be offline. Fried. The culprit? 6 liters of Mountain Dew.\n" +
-                        "You will have to ask your mom to buy you another one, if you survive Cyberite long\n" +
-                        "enough to find her.");
+                        "Worse, your Apple iMplant 16XS seems to be offline. Fried. The culprit? 6 liters of\n" +
+                        "Mountain Dew. You will have to ask your mom to buy you another one, if you survive Cyberite\n" +
+                        "long enough to find her.");
                 player = new ScriptyBoi("Bob");
                 break;
         }
