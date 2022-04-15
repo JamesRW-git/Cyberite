@@ -51,4 +51,9 @@ public class Input {
         return scanner.nextDouble();
     }
 
+    public static String getPlayerName(String prompt) {
+        System.out.println(prompt);
+        return scanner.nextLine();
+    }
+
 }
